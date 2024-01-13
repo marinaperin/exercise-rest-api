@@ -1,6 +1,6 @@
 import express from "express";
 import morgan from "morgan";
-import fs from "fs";
+import fs, { read } from "fs";
 import path from "path";
 import cors from "cors";
 
@@ -71,7 +71,8 @@ const setResource = (resourceName, properties) => {
   // GET resources/:id
   app.get(`/${resourceName}/:id`, (req, res) => {
     const { id } = req.params;
-    const singleResource = resource.filter((r) => r.id === Number(id));
+    const resources = readResource(resourceName);
+    const singleResource = resources.filter((r) => r.id === Number(id));
     if (!singleResource) {
       res.status(404).send(`Resource with id ${id} not found`);
       return;
@@ -121,7 +122,15 @@ const setResource = (resourceName, properties) => {
     const [, index] = getResourceIndex(resourceName, req, res);
     const resources = readResource(resourceName);
     newResource.id = Number(req.params.id);
-    resources[index] = {...resources[index], ...newResource};
+    resources[index] = { ...resources[index], ...newResource };
+    writeResource(resourceName, resources);
+    res.send(resources);
+  });
+  // DELETE resources/:id
+  app.delete(`/${resourceName}/:id`, (req, res) => {
+    const resources = readResource(resourceName);
+    const [, index] = getResourceIndex(resourceName, req, res);
+    resources.splice(index, 1);
     writeResource(resourceName, resources);
     res.send(resources);
   });

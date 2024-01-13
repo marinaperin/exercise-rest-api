@@ -1,1 +1,132 @@
-[{"title":"A Court of Thorns and Roses","author":"Sarah J. Maas","year":"2015","synopsis":"When nineteen-year-old huntress Feyre kills a wolf in the woods, a beast-like creature arrives to demand retribution for it. Dragged to a treacherous magical land she only knows about from legends, Feyre discovers that her captor is not an animal, but Tamlin—one of the lethal, immortal faeries who once ruled their world. As she dwells on his estate, her feelings for Tamlin transform from icy hostility into a fiery passion that burns through every lie and warning she’s been told about the beautiful, dangerous world of the Fae. But an ancient, wicked shadow over the faerie lands is growing, and Feyre must find a way to stop it…or doom Tamlin—and his world—forever.","img":"https://sarahjmaas.com/wp-content/uploads/2022/01/ACOTAR_1.jpg","status":"","series":"Yes","id":0},{"title":"A Court of Mist and Fury","author":"Sarah J. Maas","year":"2016","synopsis":"Feyre survived Amarantha’s clutches to return to the Spring Court–but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can’t forget the terrible deeds she performed to save Tamlin’s people. Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a greater evil looms–and she might be key to stopping it. But only if she can harness her harrowing gifts, heal her fractured soul, and decide how she wishes to shape her future–and the future of a world cleaved in two.","img":"https://sarahjmaas.com/wp-content/uploads/2022/01/ACOMAF_2.jpg","status":"","series":"Yes","id":1},{"title":"A Court of Wings and Ruin","author":"Sarah J. Maas","year":"2017","synopsis":"Feyre has returned to the Spring Court, determined to gather information on Tamlin’s maneuverings and the invading king threatening to bring Prythian to its knees. But to do so she must play a deadly game of deceit-and one slip may spell doom not only for Feyre, but for her world as well. As war bears down upon them all, Feyre must decide who to trust amongst the dazzling and lethal High Lords-and hunt for allies in unexpected places.","img":"https://sarahjmaas.com/wp-content/uploads/2022/01/ACOWAR_3.jpg","status":"To Be Read","series":"Yes","id":2},{"title":"A Court of Frost and Starlight","author":"Sarah J. Maas","year":"2018","synopsis":"Narrated by Feyre and Rhysand, this story bridges the events in A Court of Wings and Ruin and the upcoming novels in the series. Feyre, Rhys and their companions are still busy rebuilding the Night Court and the vastly changed world beyond. But Winter Solstice is finally near, and with it a hard-earned reprieve. Yet even the festive atmosphere can’t keep the shadows of the past from looming. As Feyre navigates her first Winter Solstice as High Lady, she finds that those dearest to her have more wounds than she anticipated – scars that will have a far-reaching impact on the future of their court.","img":"https://sarahjmaas.com/wp-content/uploads/2022/01/ACOFAS_4.jpg","status":"To Be Read","series":"Yes","id":3},{"title":"A Court of Silver Flames","author":"Sarah J. Maas","year":"2021","synopsis":"Untamed power. Untamed passion. Nesta Archeron has always been prickly-proud, swift to anger, and slow to forgive. And ever since being forced into the Cauldron and becoming High Fae against her will, she’s struggled to find a place for herself within the strange, deadly world she inhabits. Worse, she can’t seem to move past the horrors of the war with Hybern and all she lost in it. The one person who ignites her temper more than any other is Cassian, the battle-scarred warrior whose position in Rhysand and Feyre’s Night Court keeps him constantly in Nesta’s orbit. But her temper isn’t the only thing Cassian ignites. The fire between them is undeniable, and only burns hotter as they are forced into close quarters with each other. Meanwhile, the treacherous human queens who returned to the Continent during the last war have forged a dangerous new alliance, threatening the fragile peace that has settled over the realms. And the key to halting them might very well rely on Cassian and Nesta facing their haunting pasts. Against the sweeping backdrop of a world seared by war and plagued with uncertainty, Nesta and Cassian battle monsters from within and without as they search for acceptance-and healing-in each other’s arms.","img":"https://sarahjmaas.com/wp-content/uploads/2022/08/ACOSF-paperback-980x1474.jpg","status":"To Be Read","series":"Yes","id":4},{"title":"The Assassin's Blade","author":"Sarah J. Maas","year":"2014","synopsis":"Celaena Sardothien is her kingdom’s most feared assassin. Though she works for the powerful Assassin’s Guild and its scheming master, Arobynn Hamel, she yields to no one and trusts only her fellow killer-for-hire, Sam. But when Arobynn dispatches her on missions that take her from remote islands to hostile deserts, Celaena finds herself acting independently of his wishes and questioning her own allegiance. If she hopes to escape Arobynn’s clutches, Celaena will have to put her faith in her wits and her blade... knowing that if she fails, she’ll lose not just a chance at freedom but her life.","img":"https://sarahjmaas.com/wp-content/uploads/2022/08/2-Assassins-Blade-US.jpg","status":"To Be Read","series":"Yes","id":5},{"title":"Throne of Glass","author":"Sarah J. Maas","year":"2012","synopsis":"In a land without magic, an assassin is summoned to the castle. She has no love for the vicious king who rules from his throne of glass, but she has not come to kill him. She has come to win her freedom. If she defeats twenty-three murderers, thieves, and warriors in a competition, she will be released from prison to serve as the King’s Champion. Her name is Celaena Sardothien. The Crown Prince will provoke her. The Captain of the Guard will protect her. And a princess from a faraway country will befriend her. But something rotten dwells in the castle, and it’s there to kill. When her competitors start dying mysteriously, one by one, Celaena’s fight for freedom becomes a fight for survival-and a desperate quest to root out the evil before it destroys her world.","img":"https://sarahjmaas.com/wp-content/uploads/2022/08/Throne-of-Glass-US-500.jpg","status":"To Be Read","series":"Yes","id":6}]
+[
+  {
+    "title": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "year": "2015",
+    "synopsis": "When nineteen-year-old huntress Feyre kills a wolf in the woods, a beast-like creature arrives to demand retribution for it. Dragged to a treacherous magical land she only knows about from legends, Feyre discovers that her captor is not an animal, but Tamlin—one of the lethal, immortal faeries who once ruled their world. As she dwells on his estate, her feelings for Tamlin transform from icy hostility into a fiery passion that burns through every lie and warning she’s been told about the beautiful, dangerous world of the Fae. But an ancient, wicked shadow over the faerie lands is growing, and Feyre must find a way to stop it…or doom Tamlin—and his world—forever.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/01/ACOTAR_1.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 0
+  },
+  {
+    "title": "A Court of Mist and Fury",
+    "author": "Sarah J. Maas",
+    "year": "2016",
+    "synopsis": "Feyre survived Amarantha’s clutches to return to the Spring Court–but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can’t forget the terrible deeds she performed to save Tamlin’s people. Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a greater evil looms–and she might be key to stopping it. But only if she can harness her harrowing gifts, heal her fractured soul, and decide how she wishes to shape her future–and the future of a world cleaved in two.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/01/ACOMAF_2.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 1
+  },
+  {
+    "title": "A Court of Wings and Ruin",
+    "author": "Sarah J. Maas",
+    "year": "2017",
+    "synopsis": "Feyre has returned to the Spring Court, determined to gather information on Tamlin’s maneuverings and the invading king threatening to bring Prythian to its knees. But to do so she must play a deadly game of deceit-and one slip may spell doom not only for Feyre, but for her world as well. As war bears down upon them all, Feyre must decide who to trust amongst the dazzling and lethal High Lords-and hunt for allies in unexpected places.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/01/ACOWAR_3.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 2
+  },
+  {
+    "title": "A Court of Frost and Starlight",
+    "author": "Sarah J. Maas",
+    "year": "2018",
+    "synopsis": "Narrated by Feyre and Rhysand, this story bridges the events in A Court of Wings and Ruin and the upcoming novels in the series. Feyre, Rhys and their companions are still busy rebuilding the Night Court and the vastly changed world beyond. But Winter Solstice is finally near, and with it a hard-earned reprieve. Yet even the festive atmosphere can’t keep the shadows of the past from looming. As Feyre navigates her first Winter Solstice as High Lady, she finds that those dearest to her have more wounds than she anticipated – scars that will have a far-reaching impact on the future of their court.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/01/ACOFAS_4.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 3
+  },
+  {
+    "title": "A Court of Silver Flames",
+    "author": "Sarah J. Maas",
+    "year": "2021",
+    "synopsis": "Untamed power. Untamed passion. Nesta Archeron has always been prickly-proud, swift to anger, and slow to forgive. And ever since being forced into the Cauldron and becoming High Fae against her will, she’s struggled to find a place for herself within the strange, deadly world she inhabits. Worse, she can’t seem to move past the horrors of the war with Hybern and all she lost in it. The one person who ignites her temper more than any other is Cassian, the battle-scarred warrior whose position in Rhysand and Feyre’s Night Court keeps him constantly in Nesta’s orbit. But her temper isn’t the only thing Cassian ignites. The fire between them is undeniable, and only burns hotter as they are forced into close quarters with each other. Meanwhile, the treacherous human queens who returned to the Continent during the last war have forged a dangerous new alliance, threatening the fragile peace that has settled over the realms. And the key to halting them might very well rely on Cassian and Nesta facing their haunting pasts. Against the sweeping backdrop of a world seared by war and plagued with uncertainty, Nesta and Cassian battle monsters from within and without as they search for acceptance-and healing-in each other’s arms.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/ACOSF-paperback-980x1474.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 4
+  },
+  {
+    "title": "The Assassin's Blade",
+    "author": "Sarah J. Maas",
+    "year": "2014",
+    "synopsis": "Celaena Sardothien is her kingdom’s most feared assassin. Though she works for the powerful Assassin’s Guild and its scheming master, Arobynn Hamel, she yields to no one and trusts only her fellow killer-for-hire, Sam. But when Arobynn dispatches her on missions that take her from remote islands to hostile deserts, Celaena finds herself acting independently of his wishes and questioning her own allegiance. If she hopes to escape Arobynn’s clutches, Celaena will have to put her faith in her wits and her blade... knowing that if she fails, she’ll lose not just a chance at freedom but her life.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/2-Assassins-Blade-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 5
+  },
+  {
+    "title": "Throne of Glass",
+    "author": "Sarah J. Maas",
+    "year": "2012",
+    "synopsis": "In a land without magic, an assassin is summoned to the castle. She has no love for the vicious king who rules from his throne of glass, but she has not come to kill him. She has come to win her freedom. If she defeats twenty-three murderers, thieves, and warriors in a competition, she will be released from prison to serve as the King’s Champion. Her name is Celaena Sardothien. The Crown Prince will provoke her. The Captain of the Guard will protect her. And a princess from a faraway country will befriend her. But something rotten dwells in the castle, and it’s there to kill. When her competitors start dying mysteriously, one by one, Celaena’s fight for freedom becomes a fight for survival-and a desperate quest to root out the evil before it destroys her world.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/Throne-of-Glass-US-500.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 6
+  },
+  {
+    "title": "Crown of Midnight",
+    "author": "Sarah J. Maas",
+    "year": "2013",
+    "synopsis": "Celaena Sardothien won a brutal contest to become the King’s Champion. But she is far from loyal to the crown. Though she goes to great lengths to hide her secret, her deadly charade becomes more difficult when she realizes she is not the only one seeking justice. Her search for answers ensnares those closest to her, and no one is safe from suspicion-not the Crown Prince Dorian; not Chaol, the Captain of the Guard; not even her best friend, Nehemia, a princess with a rebel heart. Then, one terrible night, the secrets they have all been keeping lead to an unspeakable tragedy. As Celaena’s world shatters, she will be forced to decide once and for all where her true loyalties lie... and what she is willing to fight for.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/3-Crown-of-Midnight-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 7
+  },
+  {
+    "title": "Heir of Fire",
+    "author": "Sarah J. Maas",
+    "year": "2014",
+    "synopsis": "Celaena Sardothien has survived deadly contests and shattering heartbreak, but now she must travel to a new land to confront her darkest truth. That truth could change her life-and her future-forever. Meanwhile, monstrous forces are gathering on the horizon, intent on enslaving her world. To defeat them, Celaena will need the strength not only to fight the evil that is about to be unleashed but also to harness her inner demons. If she is to win this battle, she must find the courage to face her destiny-and burn brighter than ever before.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/4-Heir-of-Fire-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 8
+  },
+  {
+    "title": "Queen of Shadows",
+    "author": "Sarah J. Maas",
+    "year": "2015",
+    "synopsis": "Celaena Sardothien has embraced her identity as Aelin Galathynius, Queen of Terrasen. But before she can reclaim her throne, she must fight. She will fight for her cousin, a warrior prepared to die for her. She will fight for her friend, a young man trapped in an unspeakable prison. And she will fight for her people, enslaved to a brutal king and awaiting their lost queen’s triumphant return. Everyone Aelin loves has been taken from her. Everything she holds dear is in danger. But she has the heart of a queen-and that heart beats for vengeance.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/5-Queen-of-Shadows-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 9
+  },
+  {
+    "title": "Empire of Storms",
+    "author": "Sarah J. Maas",
+    "year": "2016",
+    "synopsis": "The long path to the throne has only just begun for Aelin Galathynius as war looms on the horizon. Loyalties have been broken and bought, friends have been lost and gained, and those who possess magic find themselves increasingly at odds with those who don’t. With her heart sworn to the warrior-prince by her side and her fealty pledged to the people she is determined to save, Aelin will delve into the depths of her power to protect those she loves. But as monsters emerge from the horrors of the past, dark forces stand poised to claim her world. The only chance for salvation lies in a desperate quest that may take more from Aelin than she has to give, a quest that forces her to choose what-and who-she’s willing to sacrifice for the sake of peace.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/6-Empire-of-Storms-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 10
+  },
+  {
+    "title": "Tower of Dawn",
+    "author": "Sarah J. Maas",
+    "year": "2017",
+    "synopsis": "Chaol Westfall and Nesryn Faliq have arrived in the shining city of Antica to forge an alliance with the Khagan of the Southern Continent, whose vast armies are Erilea’s last hope. But they have also come to Antica for another purpose: to seek healing at the famed Torre Cesme for the wounds Chaol received in Rifthold. After enduring unspeakable horrors as a child at the hands of Adarlanian soldiers, Yrene Towers has no desire to help the young lord from Adarlan, let alone heal him. Yet she has sworn an oath to assist those in need, and she will honor it. But Lord Westfall carries his own dark past, and Yrene soon realizes that those shadows could engulf them both. Chaol, Nesryn, and Yrene will have to draw on every scrap of their resilience to overcome the danger that surrounds them. But while they become entangled in the political webs of the khaganate, long-awaited answers slumber deep in the mountains, where warriors soar on legendary ruks. Answers that might offer their world a chance at survival... or doom them all.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/7-Tower-of-Dawn-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 11
+  },
+  {
+    "title": "Kingdom of Ash",
+    "author": "Sarah J. Maas",
+    "year": "2018",
+    "synopsis": "Aelin Galathynius has vowed to save her people-but at a tremendous cost. Locked in an iron coffin by the Queen of the Fae, Aelin must draw upon her fiery will as she endures months of torture. The knowledge that yielding to Maeve will doom those she loves keeps her from breaking, but her resolve unravels with each passing day. With Aelin captured, her friends and allies have scattered. Some bonds will grow even deeper, while others will be severed forever. But as destinies weave together at last, all must stand together if Erilea is to have any hope of salvation.",
+    "img": "https://sarahjmaas.com/wp-content/uploads/2022/08/8-Kingdom-of-Ash-US.jpg",
+    "status": "To Be Read",
+    "series": "Yes",
+    "id": 12
+  }
+]
