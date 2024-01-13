@@ -18,6 +18,24 @@ const writeResource = (resourceName, resource) => {
   fs.writeFileSync(path.resolve(`./database/${resourceName}.json`), data);
 };
 
+const getResourceIndex = (resourceName, req, res) => {
+  const { id } = req.params;
+  const resource = readResource(resourceName);
+  let index;
+  for (let i = 0; i < resource.length; i++) {
+    const elem = resource[i];
+    if (elem.id === Number(id)) {
+      index = i;
+      break;
+    }
+  }
+  if (index === undefined) {
+    res.status(404).send("No resource found");
+    return [];
+  }
+  return [resource[index], index];
+};
+
 const idGenerator = (resourceName) => {
   const resource = readResource(resourceName);
   const ids = resource.map((r) => r.id);
@@ -53,7 +71,6 @@ const setResource = (resourceName, properties) => {
   // GET resources/:id
   app.get(`/${resourceName}/:id`, (req, res) => {
     const { id } = req.params;
-    const resource = readResource(resourceName);
     const singleResource = resource.filter((r) => r.id === Number(id));
     if (!singleResource) {
       res.status(404).send(`Resource with id ${id} not found`);
@@ -63,14 +80,57 @@ const setResource = (resourceName, properties) => {
   });
   // PUT resources/:id
   app.put(`/${resourceName}/:id`, (req, res) => {
-    
-  })
+    const newResource = req.body;
+    let isValid = true;
+    isValid &= Object.keys(newResource).length === properties.length;
+    if (isValid) {
+      properties.forEach((key) => {
+        isValid &= newResource[key] !== undefined;
+      });
+    }
+    if (!isValid) {
+      res.status(400).send(`Resource must have properties: ${properties}`);
+      return;
+    }
+    const [, index] = getResourceIndex(resourceName, req, res);
+    const resources = readResource(resourceName);
+    newResource.id = Number(req.params.id);
+    resources[index] = newResource;
+    writeResource(resourceName, resources);
+    res.send(resources);
+  });
+  // PATCH resources/:id
+  app.patch(`/${resourceName}/:id`, (req, res) => {
+    const newResource = req.body;
+    const keys = Object.keys(newResource);
+    if (keys.length >= properties.length) {
+      res
+        .status(400)
+        .send(`You cannot change more than ${properties.length - 1}`);
+      return;
+    }
+    let isValid = true;
+    if (isValid) {
+      keys.forEach((key) => {
+        isValid &= properties.includes(key);
+      });
+    }
+    if (!isValid) {
+      res.status(400).send(`Properties to change must be: ${properties}`);
+    }
+    const [, index] = getResourceIndex(resourceName, req, res);
+    const resources = readResource(resourceName);
+    newResource.id = Number(req.params.id);
+    resources[index] = {...resources[index], ...newResource};
+    writeResource(resourceName, resources);
+    res.send(resources);
+  });
 };
 
 const app = express();
 
-app.listen(3001, () => {
-  console.log("Server active at port 3001");
+app.listen(3000, () => {
+  console.log("Server active at port 3000");
 });
 
 app.use(morgan("dev"));
