@@ -98,7 +98,7 @@ const setResource = (resourceName, properties) => {
     newResource.id = Number(req.params.id);
     resources[index] = newResource;
     writeResource(resourceName, resources);
-    res.send(resources);
+    res.send(resources[index]);
   });
   // PATCH resources/:id
   app.patch(`/${resourceName}/:id`, (req, res) => {
@@ -124,7 +124,7 @@ const setResource = (resourceName, properties) => {
     newResource.id = Number(req.params.id);
     resources[index] = { ...resources[index], ...newResource };
     writeResource(resourceName, resources);
-    res.send(resources);
+    res.send(resources[index]);
   });
   // DELETE resources/:id
   app.delete(`/${resourceName}/:id`, (req, res) => {
